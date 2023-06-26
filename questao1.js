@@ -27,7 +27,7 @@ class Vertice {
 
     //dAB² = (xB – xA)² + (yB – yA)²
     distancia(x2, y2) {
-        return ((x2 - this.x)^2) + ((y2 - this.y)^2);
+        return Math.sqrt(((x2 - this.x)^2) + ((y2 - this.y)^2));
     }
 
     move(x2, y2) {
