@@ -62,9 +62,9 @@ let y3 = prompt('Digite o Y do terceiro Vértice: ');
 
 let v3 = new Vertice(x3, y3);
 
-console.log(v1.distancia(v2));
-console.log(v2.distancia(v3));
-console.log(v3.distancia(v1));
-console.log(v1.move(4, 4));
-console.log(v1.distancia(v2, v2));
-console.log(v1.equals(v2));
+console.log("Distância entre V1 e V2: " + v1.distancia(v2));
+console.log("Distância entre V2 e V3: " + v2.distancia(v3));
+console.log("Distância entre V3 e V1: " + v3.distancia(v1));
+console.log("Movendo as coordenadas de V1: " + v1.move(4, 4));
+console.log("Nova distância entre V1 e V2: " + v1.distancia(v2));
+console.log("V1 e V2 são iguais? " + v1.equals(v2));
