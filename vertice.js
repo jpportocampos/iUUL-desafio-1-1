@@ -11,7 +11,7 @@ export default class Vertice {
         return this.#x;
     }
 
-    set x(x) {
+    set xVertice(x) {
         this.#x = x;
     }
 
@@ -19,7 +19,7 @@ export default class Vertice {
         return this.#y;
     }
 
-    set y(y) {
+    set yVertice(y) {
         this.#y = y;
     }
 

@@ -19,7 +19,7 @@ export default class Poligono {
         return this.#vertices;
     }
 
-    set vertices(vertices) {
+    set verticesPoligono(vertices) {
         this.#vertices = vertices;
     }
     

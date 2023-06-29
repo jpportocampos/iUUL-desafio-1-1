@@ -22,7 +22,7 @@ export default class Triangulo {
         return this.#v1;
     }
 
-    set v1(v1) {
+    set v1Triangulo(v1) {
         this.#v1 = v1;
     }
 
@@ -30,7 +30,7 @@ export default class Triangulo {
         return this.#v2;
     }
 
-    set v2(v2) {
+    set v2Triangulo(v2) {
         this.#v2 = v2;
     }
 
@@ -38,7 +38,7 @@ export default class Triangulo {
         return this.#v3;
     }
 
-    set v3(v3) {
+    set v3Triangulo(v3) {
         this.#v3 = v3;
     }
 

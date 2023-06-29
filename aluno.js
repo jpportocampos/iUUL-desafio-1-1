@@ -7,13 +7,15 @@ export default class Aluno {
     constructor(matricula, nome) {
         this.#matricula = matricula;
         this.#nome = nome;
+        this.#p1 = ' - ';
+        this.#p2 = ' - ';
     }
 
     get matricula() {
         return this.#matricula;
     }
 
-    set matricula(matricula) {
+    set matriculaAluno(matricula) {
         this.#matricula = matricula;
     }
 
@@ -21,7 +23,7 @@ export default class Aluno {
         return this.#nome;
     }
 
-    set nome(nome) {
+    set nomeAluno(nome) {
         this.#nome = nome;
     }
 
@@ -29,7 +31,7 @@ export default class Aluno {
         return this.#p1;
     }
 
-    set p1(p1) {
+    set p1Aluno(p1) {
         this.#p1 = p1;
     }
 
@@ -37,7 +39,7 @@ export default class Aluno {
         return this.#p2;
     }
 
-    set p2(p2) {
+    set p2Aluno(p2) {
         this.#p2 = p2;
     }
 }
